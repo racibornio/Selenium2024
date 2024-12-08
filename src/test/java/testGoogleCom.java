@@ -18,7 +18,6 @@ import java.time.Duration;
 public class testGoogleCom {
     static WebDriver chromeDriver;
     String suturl = "http://google.com";
-    //test komentarza
 
     @BeforeAll
     static void setupClass() {
