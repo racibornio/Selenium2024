@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testGoogleCom" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-08T19:22:48" hostname="WS-003-26RRCS3" time="4.379">
+<testsuite name="testGoogleCom" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-08T20:54:53" hostname="WS-003-26RRCS3" time="10.833">
   <properties/>
-  <testcase name="Test()" classname="testGoogleCom" time="4.379"/>
-  <system-out><![CDATA[20:22:47.030 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.5.3
-20:22:47.214 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=131 in cache (valid until 21:22:23 08/12/2024 CET)
-20:22:47.215 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome131=131.0.6778.87 in cache (valid until 21:30:41 08/12/2024 CET)
-20:22:47.216 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
-20:22:47.257 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 131.0.6778.87 found in cache
-20:22:47.257 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\pos\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
-20:22:48.107 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.5.3
-20:22:48.112 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=131 in cache (valid until 21:22:23 08/12/2024 CET)
-20:22:48.112 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome131=131.0.6778.87 in cache (valid until 21:30:41 08/12/2024 CET)
-20:22:48.112 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
-20:22:48.116 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 131.0.6778.87 found in cache
-20:22:48.116 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\pos\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+  <testcase name="TestToSearchAndSearchPlusScreenshot()" classname="testGoogleCom" time="10.833"/>
+  <system-out><![CDATA[21:54:52.342 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.5.3
+21:54:52.525 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=131 in cache (valid until 22:25:09 08/12/2024 CET)
+21:54:52.526 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome131=131.0.6778.87 in cache (valid until 21:31:19 09/12/2024 CET)
+21:54:52.527 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+21:54:52.568 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 131.0.6778.87 found in cache
+21:54:52.569 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\pos\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+The page Google from url: https://www.google.com/ got open.
+The screenshot is saved.
+Window maximized.
+The screenshot is saved.
+Navigation scrolled down.
+The screenshot is saved.
+The Reject button got clicked.
+The screenshot is saved.
+The search field got clicked
+The screenshot is saved.
+The screenshot is saved.
 ]]></system-out>
-  <system-err><![CDATA[Dec 08, 2024 8:22:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[Dec 08, 2024 9:54:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
 ]]></system-err>
 </testsuite>
