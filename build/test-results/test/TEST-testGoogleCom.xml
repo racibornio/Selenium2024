@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testGoogleCom" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-08T15:12:37" hostname="WS-003-26RRCS3" time="36.968">
+  <properties/>
+  <testcase name="Test()" classname="testGoogleCom" time="36.968"/>
+  <system-out><![CDATA[16:12:36.104 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.5.3
+16:12:36.300 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=131 in cache (valid until 16:47:55 08/12/2024 CET)
+16:12:36.300 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome131=131.0.6778.87 in cache (valid until 21:30:41 08/12/2024 CET)
+16:12:36.302 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+16:12:36.348 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 131.0.6778.87 found in cache
+16:12:36.348 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\pos\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+16:12:37.236 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.5.3
+16:12:37.242 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=131 in cache (valid until 16:47:55 08/12/2024 CET)
+16:12:37.242 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome131=131.0.6778.87 in cache (valid until 21:30:41 08/12/2024 CET)
+16:12:37.242 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+16:12:37.247 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 131.0.6778.87 found in cache
+16:12:37.247 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\pos\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+]]></system-out>
+  <system-err><![CDATA[Dec 08, 2024 4:12:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+</testsuite>
