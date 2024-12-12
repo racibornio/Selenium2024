@@ -19,7 +19,7 @@ public class Epl {
 
     @BeforeAll
     static void setupClass() {
-        // 1. Mechanizm budowania WebDriver
+        // Mechanizm budowania WebDriver - 2/2
         //WebDriverManager.chromedriver().setup();
 
         // ten jest silniejszy niz "WebDriverManager.chromedriver().setup();" bo rozwiazuje sterownik, ale i tworzy

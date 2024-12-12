@@ -15,9 +15,12 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.Duration;
 
+// Asercje - 2/3
+import org.assertj.core.api.Assertions;
+
 public class testGoogleCom {
     static WebDriver chromeDriver;
-    String suturl = "http://google.com";
+    String suturl = "https://www.google.com/";
 
     @BeforeAll
     static void setupClass() {
@@ -27,7 +30,12 @@ public class testGoogleCom {
     @Test
     void TestOpenUrl() {
         chromeDriver.get(suturl);
-        System.out.println("Otwarto stron? " + chromeDriver.getTitle() + " z adresu " + chromeDriver.getCurrentUrl());
+        System.out.println("Otwarto strone " + chromeDriver.getTitle() + " z adresu " + chromeDriver.getCurrentUrl());
+        String expectedUrl = suturl;
+        String actualUrl = chromeDriver.getCurrentUrl();
+
+        // Asercje - 3/3
+        Assertions.assertThat(actualUrl).as("Wrong URL.").isEqualTo(expectedUrl);
     }
 
     @Test
@@ -192,9 +200,6 @@ public class testGoogleCom {
         screenshot = ((TakesScreenshot) chromeDriver).getScreenshotAs(OutputType.FILE);
         Files.copy(screenshot.toPath(), Paths.get("./screenshots/results.png"));
         System.out.println("The screenshot is saved.");
-
-
-
     }
 
     @Test
